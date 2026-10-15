@@ -57,8 +57,9 @@
             <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-stone-600">
                 <a href="#about" class="hover:text-stone-900 transition">เกี่ยวกับฉัน</a>
                 <a href="#education" class="hover:text-stone-900 transition">ประวัติการศึกษา</a>
+                <a href="#awards" class="hover:text-stone-900 transition">ผลงาน/รางวัล</a>
                 <a href="#skills" class="hover:text-stone-900 transition">ความสามารถ</a>
-                <a href="#activities" class="hover:text-stone-900 transition">กิจกรรม</a>
+                <a href="#activities" class="hover:text-stone-900 transition">กิจกรรมและจิตอาสา</a>
                 <a href="#contact" class="px-4 py-2 bg-stone-900 text-white rounded-full text-xs hover:bg-stone-800 transition">ติดต่อ</a>
             </div>
 
@@ -72,8 +73,9 @@
             <div class="flex flex-col space-y-4 text-sm font-medium text-stone-600">
                 <a href="#about" class="mobile-link hover:text-stone-900">เกี่ยวกับฉัน</a>
                 <a href="#education" class="mobile-link hover:text-stone-900">ประวัติการศึกษา</a>
+                <a href="#awards" class="mobile-link hover:text-stone-900">ผลงาน/รางวัล</a>
                 <a href="#skills" class="mobile-link hover:text-stone-900">ความสามารถ</a>
-                <a href="#activities" class="mobile-link hover:text-stone-900">กิจกรรม</a>
+                <a href="#activities" class="mobile-link hover:text-stone-900">กิจกรรมและจิตอาสา</a>
                 <a href="#contact" class="mobile-link text-blue-600 font-semibold">ติดต่อ</a>
             </div>
         </div>
@@ -250,33 +252,33 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-20 bg-white border-y border-stone-200/60 px-6">
+    <!-- Awards & Honors Section -->
+    <section id="awards" class="py-20 bg-white border-y border-stone-200/60 px-6">
         <div class="max-w-5xl mx-auto space-y-12">
             <div class="text-center max-w-xl mx-auto space-y-2">
-                <h2 class="text-xs font-semibold tracking-widest text-blue-600 uppercase">Talents</h2>
-                <p class="text-3xl font-bold text-stone-900">ความสามารถพิเศษ</p>
+                <h2 class="text-xs font-semibold tracking-widest text-blue-600 uppercase">Honors & Awards</h2>
+                <p class="text-3xl font-bold text-stone-900">ผลงานและรางวัลเกียรติยศ</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Volleyball -->
-                <div class="p-8 rounded-3xl bg-stone-50 border border-stone-200/80 hover:border-blue-200 transition duration-300 text-center space-y-4">
-                    <div class="w-14 h-14 mx-auto rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center text-2xl">
-                        <i class="fa-solid fa-volleyball"></i>
+            <div class="max-w-2xl mx-auto">
+                <div class="p-8 rounded-3xl bg-amber-50/50 border border-amber-200/80 flex flex-col md:flex-row items-center gap-6 shadow-sm">
+                    <div class="w-20 h-20 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 text-white flex items-center justify-center text-3xl shrink-0 shadow-md">
+                        <i class="fa-solid fa-award"></i>
                     </div>
-                    <h3 class="text-lg font-bold text-stone-900">เล่นกีฬาวอลเลย์บอล</h3>
-                    <p class="text-xs text-stone-500 leading-relaxed">
-                        มีความเชี่ยวชาญในการเล่นวอลเลย์บอล มีทักษะการทำงานร่วมกับผู้อื่นเป็นทีม และมีการตัดสินใจที่ดี
-                    </p>
+                    <div class="space-y-2 text-center md:text-left">
+                        <span class="text-xs font-bold px-3 py-1 bg-amber-100 text-amber-800 rounded-full border border-amber-200">รางวัลเกียรติคุณ</span>
+                        <h3 class="text-xl font-bold text-stone-900 pt-1">นักเรียนดีเด่น (เรียนดี) เนื่องในวันครู</h3>
+                        <p class="text-sm text-stone-600 leading-relaxed">
+                            ได้รับคัดเลือกให้รับรางวัลนักเรียนดีเด่นด้านการเรียน มีความขยันหมั่นเพียร ผลการเรียนอยู่ในเกณฑ์ดีเยี่ยม และเป็นแบบอย่างที่ดีแก่เพื่อนนักเรียน
+                        </p>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Dance & Traditional -->
-                <div class="p-8 rounded-3xl bg-stone-50 border border-stone-200/80 hover:border-blue-200 transition duration-300 text-center space-y-4">
-                    <div class="w-14 h-14 mx-auto rounded-2xl bg-pink-100 text-pink-600 flex items-center justify-center text-2xl">
-                        <i class="fa-solid fa-person-dots-from-line"></i>
-                    </div>
-                    <h3 class="text-lg font-bold text-stone-900">เต้น / รำ</h3>
-                    <p class="text-xs text-stone-500 leading-relaxed">
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6">
                         มีความสุขกับการแสดงออก ทั้งการเต้นสมัยใหม่และการรำไทยศิลปวัฒนธรรม
                     </p>
                 </div>
@@ -296,17 +298,59 @@
     </section>
 
     <!-- Activities Section -->
-    <section id="activities" class="py-20 px-6">
+    <section id="activities" class="py-20 bg-white border-t border-stone-200/60 px-6">
         <div class="max-w-5xl mx-auto space-y-12">
             <div class="text-center max-w-xl mx-auto space-y-2">
-                <h2 class="text-xs font-semibold tracking-widest text-blue-600 uppercase">Activities</h2>
-                <p class="text-3xl font-bold text-stone-900">กิจกรรมที่เข้าร่วม</p>
+                <h2 class="text-xs font-semibold tracking-widest text-blue-600 uppercase">Activities & Volunteering</h2>
+                <p class="text-3xl font-bold text-stone-900">กิจกรรมและการฝึกอบรม</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <!-- Activity 1 -->
-                <div class="bg-white rounded-3xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-md transition">
-                    <div class="h-44 bg-gradient-to-br from-emerald-100 to-teal-50 flex items-center justify-center p-6 text-emerald-600">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Training 1: First Aid & CPR -->
+                <div class="bg-stone-50 rounded-3xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-md transition">
+                    <div class="h-40 bg-gradient-to-br from-red-100 to-rose-50 flex items-center justify-center p-6 text-red-500">
+                        <i class="fa-solid fa-kit-medical text-5xl"></i>
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <span class="text-[10px] font-bold px-2.5 py-1 bg-red-50 text-red-700 rounded-full border border-red-100">อบรมเชิงปฏิบัติการ</span>
+                        <h3 class="text-base font-bold text-stone-900 pt-1">การปฐมพยาบาลและการช่วยเหลือขั้นพื้นฐาน</h3>
+                        <p class="text-xs text-stone-500 leading-relaxed">
+                            เข้าร่วมโครงการฝึกอบรมเชิงปฏิบัติการการปฐมพยาบาลเบื้องต้นและการกู้ชีพขั้นพื้นฐาน (CPR) เพื่อเตรียมความพร้อมในการช่วยเหลือผู้อื่น
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Volunteer 1: Blood Donation -->
+                <div class="bg-stone-50 rounded-3xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-md transition">
+                    <div class="h-40 bg-gradient-to-br from-rose-100 to-pink-50 flex items-center justify-center p-6 text-rose-600">
+                        <i class="fa-solid fa-hand-holding-droplet text-5xl"></i>
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <span class="text-[10px] font-bold px-2.5 py-1 bg-rose-50 text-rose-700 rounded-full border border-rose-100">จิตอาสา</span>
+                        <h3 class="text-base font-bold text-stone-900 pt-1">กิจกรรมจิตอาสาบริจาคโลหิต</h3>
+                        <p class="text-xs text-stone-500 leading-relaxed">
+                            ร่วมบริจาคโลหิตเพื่อช่วยเหลือผู้ป่วยและผู้ที่ขาดแคลนโลหิต ร่วมสร้างคุณประโยชน์และตอบแทนสังคม
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Training 2: Teen Pregnancy & Drugs -->
+                <div class="bg-stone-50 rounded-3xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-md transition">
+                    <div class="h-40 bg-gradient-to-br from-indigo-100 to-blue-50 flex items-center justify-center p-6 text-indigo-600">
+                        <i class="fa-solid fa-user-shield text-5xl"></i>
+                    </div>
+                    <div class="p-6 space-y-2">
+                        <span class="text-[10px] font-bold px-2.5 py-1 bg-indigo-50 text-indigo-700 rounded-full border border-indigo-100">การอบรมรณรงค์</span>
+                        <h3 class="text-base font-bold text-stone-900 pt-1">อบรมไม่ท้องก่อนวัย ปลอดภัยยาเสพติด</h3>
+                        <p class="text-xs text-stone-500 leading-relaxed">
+                            เข้าร่วมการอบรมให้ความรู้เรื่องการป้องกันการตั้งครรภ์ก่อนวัยอันควรและการหลีกเลี่ยงภัยจากยาเสพติดในวัยเรียน
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Activity: Quiz Competition -->
+                <div class="bg-stone-50 rounded-3xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-md transition">
+                    <div class="h-40 bg-gradient-to-br from-emerald-100 to-teal-50 flex items-center justify-center p-6 text-emerald-600">
                         <i class="fa-solid fa-recycle text-5xl"></i>
                     </div>
                     <div class="p-6 space-y-2">
@@ -318,30 +362,30 @@
                     </div>
                 </div>
 
-                <!-- Activity 2 -->
-                <div class="bg-white rounded-3xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-md transition">
-                    <div class="h-44 bg-gradient-to-br from-blue-100 to-indigo-50 flex items-center justify-center p-6 text-blue-600">
-                        <i class="fa-solid fa-shield-halved text-5xl"></i>
+                <!-- Activity: Culture/Bung Fai Festival -->
+                <div class="bg-stone-50 rounded-3xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-md transition">
+                    <div class="h-40 bg-gradient-to-br from-amber-100 to-yellow-50 flex items-center justify-center p-6 text-amber-600">
+                        <i class="fa-solid fa-flag text-5xl"></i>
                     </div>
                     <div class="p-6 space-y-2">
-                        <span class="text-[10px] font-bold px-2.5 py-1 bg-blue-50 text-blue-700 rounded-full border border-blue-100">นักกีฬา</span>
-                        <h3 class="text-base font-bold text-stone-900 pt-1">แข่งขันวอลเลย์บอลต่อต้านยาเสพติด</h3>
+                        <span class="text-[10px] font-bold px-2.5 py-1 bg-amber-50 text-amber-700 rounded-full border border-amber-100">กิจกรรมประเพณี</span>
+                        <h3 class="text-base font-bold text-stone-900 pt-1">ถือป้ายขบวนงานบุญบั้งไฟ</h3>
                         <p class="text-xs text-stone-500 leading-relaxed">
-                            เข้าร่วมการแข่งขันกีฬาวอลเลย์บอลส่งเสริมสุขภาพและการทำกิจกรรมสร้างสรรค์เพื่อต่อต้านยาเสพติด
+                            ได้รับเกียรติให้เป็นผู้ถือป้ายนำขบวนในงานประเพณีบุญบั้งไฟ ร่วมอนุรักษ์และสืบสานวัฒนธรรมท้องถิ่น
                         </p>
                     </div>
                 </div>
 
-                <!-- Activity 3 -->
-                <div class="bg-white rounded-3xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-md transition">
-                    <div class="h-44 bg-gradient-to-br from-amber-100 to-orange-50 flex items-center justify-center p-6 text-amber-600">
-                        <i class="fa-solid fa-trophy text-5xl"></i>
+                <!-- Activity: Anti-Drug Volleyball -->
+                <div class="bg-stone-50 rounded-3xl border border-stone-200/80 overflow-hidden shadow-sm hover:shadow-md transition">
+                    <div class="h-40 bg-gradient-to-br from-sky-100 to-blue-50 flex items-center justify-center p-6 text-sky-600">
+                        <i class="fa-solid fa-volleyball text-5xl"></i>
                     </div>
                     <div class="p-6 space-y-2">
-                        <span class="text-[10px] font-bold px-2.5 py-1 bg-amber-50 text-amber-700 rounded-full border border-amber-100">กีฬาสี</span>
-                        <h3 class="text-base font-bold text-stone-900 pt-1">ตัวแทนลงแข่งวอลเลย์บอลกีฬาสี</h3>
+                        <span class="text-[10px] font-bold px-2.5 py-1 bg-sky-50 text-sky-700 rounded-full border border-sky-100">นักกีฬา</span>
+                        <h3 class="text-base font-bold text-stone-900 pt-1">แข่งวอลเลย์บอลต่อต้านยาเสพติด & กีฬาสี</h3>
                         <p class="text-xs text-stone-500 leading-relaxed">
-                            ได้รับคัดเลือกเป็นนักกีฬาวอลเลย์บอลตัวแทนสี ร่วมสร้างความสามัคคีและชัยชนะให้กับทีม
+                            เป็นตัวแทนนักกีฬาวอลเลย์บอลเข้าร่วมการแข่งขันกีฬาสีและรายการต่อต้านยาเสพติด สร้างความสามัคคีในหมู่คณะ
                         </p>
                     </div>
                 </div>
